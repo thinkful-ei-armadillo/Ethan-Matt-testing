@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import UserList from './UserList';
+import Stage from './Stage';
 import * as serviceWorker from './serviceWorker';
 
 const tempData = [

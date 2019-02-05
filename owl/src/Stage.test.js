@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
-import UserList from './UserList';
+import Stage from './Stage';
 
 const users = [
   {
@@ -29,7 +29,7 @@ const users = [
       name: 'Frank Runciman',
       avatar:
           'https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1',
-  
+
   },
   {
       id: 5,

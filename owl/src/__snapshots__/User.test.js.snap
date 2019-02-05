@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot tests renders the UI as expected 1`] = `
+<div
+  className="user"
+>
+  <img
+    alt="alice"
+    className="user-avatar"
+    src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+  />
+  <div>
+    <h6
+      className="user-name"
+    >
+      alice
+    </h6>
+    <div
+      className="user-status"
+    >
+      on stage
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshot tests renders the UI as expected 2`] = `
+<div
+  className="user"
+>
+  <img
+    alt="alice"
+    className="user-avatar"
+    src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+  />
+  <div>
+    <h6
+      className="user-name"
+    >
+      alice
+    </h6>
+    <div
+      className="user-status"
+    >
+      
+    </div>
+  </div>
+</div>
+`;

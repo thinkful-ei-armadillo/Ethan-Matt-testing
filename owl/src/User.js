@@ -7,11 +7,11 @@ function User (props) {
   const status = props.onStage ? 'on stage' : '';
 
   return (
-    <div class="user">
-      <img class="user-avatar" src={props.avatar} alt={props.name} />
+    <div className="user">
+      <img className="user-avatar" src={props.avatar} alt={props.name} />
       <div>
-        <h6 class="user-name" >{props.name}</h6>
-        <div class="user-status">{status}</div>
+        <h6 className="user-name" >{props.name}</h6>
+        <div className="user-status">{status}</div>
       </div>
     </div>
   );

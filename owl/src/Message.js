@@ -39,7 +39,7 @@ function Message (props) {
     if(message === props.message){
       return (
         <div className="system-message">
-          <div>{props.avatar}<strong>{props.participantId} </strong> {props.time}</div>
+          <div> <img src= {props.avatar} alt='some avatar'/><strong>{props.name} </strong> {props.time}</div>
           <div>{message}</div>
         </div>
         
@@ -48,7 +48,7 @@ function Message (props) {
     else{
       return (
         <div className="system-message">
-          <p><strong>{props.participantId} </strong>{message}</p>
+          <p><strong>{props.name} </strong>{message}</p>
         </div>
         
       );

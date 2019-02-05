@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Stage from './Stage';
+import ChatLog from './ChatLog';
 import * as serviceWorker from './serviceWorker';
 
 const participants = [
@@ -104,9 +105,14 @@ const createChatMessages = function (participants, events) {
 
     // Convert participantID into participant object
     expanded.participant = participants.find(p => {
-      return p.id = e.participantId;
+      return p.id === e.participantId;
     });
-
+    
+    let hours = new Date(e.timestamp).getHours()+1;
+    let min = new Date(e.timestamp).getMinutes();
+    let amOrPm = new Date(e.timestamp).getHours() < 12 ? 'AM' :'PM';
+    
+    e.time = `${hours}:${min} ${amOrPm}`;
     // Add required attributes
     expanded.type = e.type;
     expanded.timestamp = e.timestamp;
@@ -124,7 +130,7 @@ const tempData = createChatMessages(participants, chatEvents);
 console.log(tempData);
 
 
-const test = <Stage users={tempData} />
+const test = <ChatLog users={tempData} />
 
 ReactDOM.render(test, document.getElementById('root'));
 

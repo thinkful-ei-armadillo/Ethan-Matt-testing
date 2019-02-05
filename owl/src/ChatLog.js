@@ -4,14 +4,14 @@ import cuid from 'cuid';
 
 function ChatLog (props) {
 
-  const ChatLog = props.users.map((u) => {
+  const ChatLog = props.messages.map((u) => {
 
     return (
     <Message
       id = {u.participant.id}
       name={u.participant.name}
       avatar={u.participant.avatar}
-      time = {u.time}
+      timestamp = {u.timestamp}
       type = {u.type}
       message ={u.message}
       key =  {cuid()}

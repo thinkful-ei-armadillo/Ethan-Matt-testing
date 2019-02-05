@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div>
+  <div
+    className="system-message"
+  >
+    <div>
+       
+      <img
+        alt="some avatar"
+        src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+      />
+      <strong>
+        Axe Kubicka
+         
+      </strong>
+       
+      1548852484247
+    </div>
+    <div>
+      Hello world
+    </div>
+  </div>
+  <div
+    className="system-message"
+  >
+    <div>
+       
+      <img
+        alt="some avatar"
+        src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+      />
+      <strong>
+        Caty Flucker
+         
+      </strong>
+       
+      1548852484247
+    </div>
+    <div />
+  </div>
+  <div
+    className="system-message"
+  >
+    <div>
+       
+      <img
+        alt="some avatar"
+        src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
+      />
+      <strong>
+        Frank Runciman
+         
+      </strong>
+       
+      1548852484247
+    </div>
+    <div />
+  </div>
+  <div
+    className="system-message"
+  >
+    <p>
+      <strong>
+        Koren Templeton
+         
+      </strong>
+      raised their hand
+    </p>
+  </div>
+  <div
+    className="system-message"
+  >
+    <p>
+      <strong>
+        Koren Templeton
+         
+      </strong>
+      clapped
+    </p>
+  </div>
+  <div
+    className="system-message"
+  >
+    <p>
+      <strong>
+        Koren Templeton
+         
+      </strong>
+      joined
+    </p>
+  </div>
+  <div
+    className="system-message"
+  >
+    <p>
+      <strong>
+        Ashla Attwool
+         
+      </strong>
+      left
+    </p>
+  </div>
+  <div
+    className="system-message"
+  >
+    <p>
+      <strong>
+        Axe Kubicka
+         
+      </strong>
+      joined the stage
+    </p>
+  </div>
+  <div
+    className="system-message"
+  >
+    <p>
+      <strong>
+        Axe Kubicka
+         
+      </strong>
+      left the stage
+    </p>
+  </div>
+</div>
+`;

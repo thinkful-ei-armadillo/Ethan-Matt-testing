@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import Stage from './Stage';
+// import App from './App';
 import ChatLog from './ChatLog';
 import * as serviceWorker from './serviceWorker';
 
@@ -107,15 +106,18 @@ const createChatMessages = function (participants, events) {
     expanded.participant = participants.find(p => {
       return p.id === e.participantId;
     });
-    
-    let hours = new Date(e.timestamp).getHours()+1;
-    let min = new Date(e.timestamp).getMinutes();
-    let amOrPm = new Date(e.timestamp).getHours() < 12 ? 'AM' :'PM';
-    
-    e.time = `${hours}:${min} ${amOrPm}`;
+
+
     // Add required attributes
     expanded.type = e.type;
-    expanded.timestamp = e.timestamp;
+
+
+    // do some date parsing
+    let hours = new Date(e.timestamp).getHours();
+    let min = new Date(e.timestamp).getMinutes();
+    let amOrPm = new Date(e.timestamp).getHours() < 12 ? 'AM' :'PM';
+
+    expanded.timestamp = `${hours}:${min} ${amOrPm}`;
 
     // Add optional attributes
     if (e.message) { expanded.message = e.message; }
@@ -129,8 +131,7 @@ const tempData = createChatMessages(participants, chatEvents);
 
 console.log(tempData);
 
-
-const test = <ChatLog users={tempData} />
+const test = <ChatLog messages={tempData} />
 
 ReactDOM.render(test, document.getElementById('root'));
 

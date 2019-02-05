@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div
+  className="system-message"
+>
+  <div>
+     
+    <img
+      alt="some avatar"
+      src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+    />
+    <strong>
+      Axe Kubicka
+       
+    </strong>
+     
+  </div>
+  <div>
+    Hello world
+  </div>
+</div>
+`;
+
+exports[`renders the UI as expected 2`] = `
+<div
+  className="system-message"
+>
+  <div>
+     
+    <img
+      alt="some avatar"
+      src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+    />
+    <strong>
+      Axe Kubicka
+       
+    </strong>
+     
+  </div>
+  <div>
+    Hello world
+  </div>
+</div>
+`;

@@ -39,10 +39,10 @@ function Message (props) {
     if(message === props.message){
       return (
         <div className="system-message">
-          <div> <img src= {props.avatar} alt='some avatar'/><strong>{props.name} </strong> {props.time}</div>
+          <div> <img src= {props.avatar} alt='some avatar'/><strong>{props.name} </strong> {props.timestamp}</div>
           <div>{message}</div>
         </div>
-        
+
       );
     }
     else{
@@ -50,10 +50,10 @@ function Message (props) {
         <div className="system-message">
           <p><strong>{props.name} </strong>{message}</p>
         </div>
-        
+
       );
     }
- 
+
 }
 
 export default Message;

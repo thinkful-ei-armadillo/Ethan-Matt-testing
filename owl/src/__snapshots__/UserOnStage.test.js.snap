@@ -4,18 +4,20 @@ exports[`Snapshot tests renders the UI as expected 1`] = `
 <div
   className="userOnStage"
 >
-  <img
-    alt="alice"
-    className="userOnStage-avatar"
-    src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
-  />
-  <div>
+  <div
+    className="userName"
+  >
     <h6
       className="userOnStage-name"
     >
       alice
     </h6>
   </div>
+  <img
+    alt="alice"
+    className="userOnStage-avatar"
+    src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+  />
 </div>
 `;
 
@@ -23,17 +25,19 @@ exports[`Snapshot tests renders the UI as expected 2`] = `
 <div
   className="userOnStage"
 >
-  <img
-    alt="alice"
-    className="userOnStage-avatar"
-    src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
-  />
-  <div>
+  <div
+    className="userName"
+  >
     <h6
       className="userOnStage-name"
     >
       alice
     </h6>
   </div>
+  <img
+    alt="alice"
+    className="userOnStage-avatar"
+    src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+  />
 </div>
 `;

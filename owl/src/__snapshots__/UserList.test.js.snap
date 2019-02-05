@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div>
+  <div
+    className="user"
+  >
+    <img
+      alt="Koren Templeton"
+      className="user-avatar"
+      src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+    />
+    <div>
+      <h6
+        className="user-name"
+      >
+        Koren Templeton
+      </h6>
+      <div
+        className="user-status"
+      >
+        on stage
+      </div>
+    </div>
+  </div>
+  <div
+    className="user"
+  >
+    <img
+      alt="Caty Flucker"
+      className="user-avatar"
+      src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+    />
+    <div>
+      <h6
+        className="user-name"
+      >
+        Caty Flucker
+      </h6>
+      <div
+        className="user-status"
+      >
+        
+      </div>
+    </div>
+  </div>
+  <div
+    className="user"
+  >
+    <img
+      alt="Axe Kubicka"
+      className="user-avatar"
+      src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+    />
+    <div>
+      <h6
+        className="user-name"
+      >
+        Axe Kubicka
+      </h6>
+      <div
+        className="user-status"
+      >
+        
+      </div>
+    </div>
+  </div>
+  <div
+    className="user"
+  >
+    <img
+      alt="Frank Runciman"
+      className="user-avatar"
+      src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
+    />
+    <div>
+      <h6
+        className="user-name"
+      >
+        Frank Runciman
+      </h6>
+      <div
+        className="user-status"
+      >
+        
+      </div>
+    </div>
+  </div>
+  <div
+    className="user"
+  >
+    <img
+      alt="Ashla Attwool"
+      className="user-avatar"
+      src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+    />
+    <div>
+      <h6
+        className="user-name"
+      >
+        Ashla Attwool
+      </h6>
+      <div
+        className="user-status"
+      >
+        on stage
+      </div>
+    </div>
+  </div>
+</div>
+`;

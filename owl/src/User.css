@@ -3,7 +3,7 @@
   display: flex;
   font-family: Proxima Nova W01,Avenir Next W01,Avenir Next,sans-serif;
   font-style: normal;
-
+  margin: 20px;
 }
 
 .user-avatar {

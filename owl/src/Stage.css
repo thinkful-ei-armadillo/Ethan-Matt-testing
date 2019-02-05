@@ -1,5 +1,9 @@
 #stage-user-list {
   display: flex;
   justify-content: center;
-  flex-grow: 1;
+}
+
+.userOnStage{
+  flex: 1;
+  text-align: center;
 }

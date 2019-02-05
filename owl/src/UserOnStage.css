@@ -1,3 +1,14 @@
 .userOnStage {
   background-color: #424854;
 }
+
+.userOnStage-name{
+  background-color: #29333f;
+  padding: 10px;
+}
+
+h6{
+  display: inline;
+  color:white;
+  margin-bottom: 0px;
+}

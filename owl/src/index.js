@@ -46,7 +46,7 @@ const tempData = [
       onStage: true
   }
 ];
-const test = <UserList users={tempData} />
+const test = <Stage users={tempData} />
 
 ReactDOM.render(test, document.getElementById('root'));
 

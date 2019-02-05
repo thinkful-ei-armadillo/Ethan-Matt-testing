@@ -1,8 +1,22 @@
 import React from 'react';
+import User from './User';
 
-function Stage () {
+function Stage (props) {
 
-  return (<p>IOU one component</p>);
+  const onStage = props.users.filter(u => u.onStage);
+  const users = onStage.map(u =>{
+    return (<UserOnStage
+      name={u.name}
+      avatar={u.avatar}
+      key = {u.id}
+     />
+  });
+
+  return (<div>
+    <div>
+      {users}
+    </div>
+  </div>);
 }
 
 export default Stage;
